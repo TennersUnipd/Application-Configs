@@ -12300,10 +12300,49 @@
       "links": {},
       "address": "0x0bFC1dCDcFc3F2d6aCed8fcf04A926ce1A5866aa",
       "transactionHash": "0x33acc220e3e3de54511fb05fd922a9a44d3fcb217ba2dfbb9f7b6b8c1c53fffb"
+    },
+    "1583141351332": {
+      "events": {
+        "0xd7966d18fe92468bade012e2eca146f932653468dd52a5bccc64dcc6ffeefefc": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "string",
+              "name": "_name",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "internalType": "string",
+              "name": "_parameters",
+              "type": "string"
+            }
+          ],
+          "name": "RemoteExec",
+          "type": "event"
+        },
+        "0xf904772d2c2e81366850ca5369611dcaa7c65f8dcfa7fe4c3e1f0e50fa68f263": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "internalType": "string",
+              "name": "_response",
+              "type": "string"
+            }
+          ],
+          "name": "RemoteResponse",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0x3EA7BA31cB44AE49Eb01118c72Af839E049E0C35",
+      "transactionHash": "0x282a2554c4f8e1cbe305b33fb3197ede231c71d1d182dedce273db17bea39a30"
     }
   },
   "schemaVersion": "3.0.23",
-  "updatedAt": "2020-03-01T15:35:17.998Z",
+  "updatedAt": "2020-03-02T09:35:17.880Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
